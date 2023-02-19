@@ -1,0 +1,115 @@
+.title {
+    color: white;
+}
+
+.titulo {
+    background-color: rgb(252, 186, 3);
+    color: black;
+    text-align: center;
+}
+
+.atvdapostila {
+    background-color: rgb(252, 186, 3);
+    color: black;
+    text-align: center;
+}
+
+.data {
+    background-color: rgb(252, 186, 3);
+    color: black;
+    text-align: center;
+}
+
+.aluno {
+    background-color: rgb(252, 186, 3);
+    color: black;
+    text-align: center;
+}
+
+.turma {
+    background-color: rgb(252, 186, 3);
+    color: black;
+    text-align: center;
+}
+
+
+.will {
+    text-align: center;
+}
+
+
+
+html {
+    background-color: #000000;
+}
+
+
+.primeiracor {
+    color: white;
+    text-align: center;
+}
+
+.botao1 {
+    text-align: center;
+}
+
+.botao2 {
+    text-align: center;
+}
+
+.botao3 {
+    text-align: center;
+}
+
+.segundacor {
+    color: white;
+    text-align: center;
+
+}
+
+.terceiracor {
+    color: white;
+    text-align: center;
+}
+
+.rodape {
+    color: black;
+    background-color: rgb(252, 186, 3);
+    text-align: center;
+}
+
+.botao{
+    border-radius: 6px;
+    background-color: rgb(252, 186, 3);
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+    padding: 3px;
+    width: 200px;
+    cursor: pointer;
+    margin: 20px;
+}
+ 
+.botao span{
+    position: relative;
+    transition: 0.50s;
+}
+
+.botao span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.8s;
+}
+
+.botao:hover span {
+    padding-right: 33px;
+}
+    
+.botao:hover span:after {
+    opacity: 1;
+    right: 2;
+}

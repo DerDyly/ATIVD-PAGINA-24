@@ -13,6 +13,13 @@ body{
     background-color: rgb(252, 186, 3);
     text-align: center;
 }
+
+.atvd3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 186, 3);
+    text-align: center;
+}
+
 .rodape{
     color: black;
     background-color: rgb(252, 186, 3);
@@ -23,12 +30,41 @@ body{
     color: white;
 }
 
+.rspt2{
+    color: white;
+}
+
+.rspt3{
+    color: white;
+}
+
+.titulo1{
+
+    color: white;
+}
+
+
+.titulo2{
+
+    color: white;
+}
+
+.titulo3{
+
+    color: white;
+}
+
 .botao4{
 
     text-align: center;
 }
 
 .botao5{
+
+    text-align: center;
+}
+
+.botao6{
 
     text-align: center;
 }

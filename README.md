@@ -1,1 +1,1 @@
-https://derdyly.github.io/ATIVIDADE-PAG-24/CSS/index.html
+https://derdyly.github.io/ATIVIDADE-PAG-24/

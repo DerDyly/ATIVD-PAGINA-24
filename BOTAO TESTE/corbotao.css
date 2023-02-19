@@ -1,0 +1,35 @@
+.button {
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(0, 89, 255);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    margin: 20px;
+}
+ 
+.button span{
+    position: relative;
+    transition: 0.90s;
+}
+
+.button span:after {
+    content: "←";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left:-10px;
+    transition: 0.9s;
+}
+
+.button:hover span {
+    padding-left: 25px;
+}
+    
+.button:hover span:after {
+    opacity: 1;
+    left: 2;
+}
